@@ -1,0 +1,63 @@
+# Site/SEO settings
+email: zhuqianze@pku.edu.cn
+permalink: /:year/:month/:day/:title/
+google_analytics: 
+
+header-img: https://res.cloudinary.com/rosellaalucard/image/upload/v1565285286/R0002286_ihewgv.jpg
+
+title: Qian-Ze Zhu
+SEOtitle: Qian-Ze Zhu | Blog
+description: A second-year undergraduate in Department of Physics, Peking University, China.
+url: "https://rosellaalucard.github.io/"
+baseurl: ""
+twitter_username: 
+default_img: 
+
+# SIdebar settings
+sidebar: true
+sidebar-about-desciption: "Hakuna Matata"
+sidebar-avatar: https://res.cloudinary.com/rosellaalucard/image/upload/v1562178799/avatar_u6jrpf.jpg
+
+# Profile settings
+name: Qian-Ze Zhu
+profile_img: https://res.cloudinary.com/rosellaalucard/image/upload/v1562178799/avatar_u6jrpf.jpg
+profile: A second-year undergraduate in Department of Physics, Peking University, China. Love all kinds of beautiful things.
+social:
+  github: https://github.com/RosellaAlucard
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-gist
+  - jekyll-coffeescript
+  - jekyll-assets
+  - another-jekyll-plugin
+compress_html:
+  clippings: all
+  comments: all
+  startings: [html, head, body]
+exclude:
+  - _screenshots
+  - .DS_Store
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.txt
+  - README.md
+
+# Pagination
+paginate: 5
+paginate_path: "/blog/page-:num"
+
+# Sass
+sass:
+  style: compressed
+
+post_asset_folder: true
+
+# Comments
+comment:
+        disqus: https://rosellaalucard.github.io/
+
+# Featured Tags
+featured-tags: true
+featured-condition-size: 1
