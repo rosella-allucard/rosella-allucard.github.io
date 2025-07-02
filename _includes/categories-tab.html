@@ -3,7 +3,7 @@
     {% for category in site.categories %}
       {% capture cat %}{{ category | first }}{% endcapture %}
       <li class="card">
-        <a class="card__link" href="{{ site.baseurl }}/categories/{{ cat | downcase | replace: ' ', '-' }}/">
+        <a class="card__link" href="{{ site.baseurl }}/categories/{{ cat | slugify }}/">
           <div class="card__img">
             {% for post in site.categories[cat] limit:1 %}
               <figure class="absolute-bg" style="background-image: url('{{ post.image }}');"></figure>
