@@ -61,3 +61,6 @@ comment:
 # Featured Tags
 featured-tags: true
 featured-condition-size: 1
+
+# Category settings
+category_dir: categories
