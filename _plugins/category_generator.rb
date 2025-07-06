@@ -23,9 +23,7 @@ module Jekyll
       if site.layouts.key? 'category_index'
         dir = site.config['category_dir'] || 'categories'
         site.categories.keys.each do |category|
-          # Slugify the category name to ensure URL consistency
-          slug = Utils.slugify(category)
-          site.pages << CategoryIndex.new(site, site.source, File.join(dir, slug), category)
+          site.pages << CategoryIndex.new(site, site.source, File.join(dir, category), category)
         end
       end
     end
