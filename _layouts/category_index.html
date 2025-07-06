@@ -3,7 +3,7 @@ layout: default
 ---
 <section class="previews">
   <div>
-    {% for post in site.categories[page.category] limit:1 %}
+    {% for post in site.categories[page.category] %}
       <figure class="absolute-bg preview__img" style="background-image: url('{{ post.image }}');"></figure>
     {% endfor %}
     
