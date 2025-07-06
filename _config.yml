@@ -13,6 +13,9 @@ baseurl: ""
 twitter_username: 
 default_img: 
 
+# Category settings
+category_dir: categories
+
 # SIdebar settings
 sidebar: true
 sidebar-about-desciption: "Hakuna Matata"
