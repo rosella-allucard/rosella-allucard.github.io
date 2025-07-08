@@ -5,8 +5,8 @@ google_analytics:
 
 header-img: https://res.cloudinary.com/rosellaalucard/image/upload/v1565285286/R0002286_ihewgv.jpg
 
-title: Qian-Ze Zhu (Rosella)
-SEOtitle: Qian-Ze Zhu (Rosella) | Blog
+title: Rosella Zhu
+SEOtitle: Rosella Zhu | Blog
 description: A second-year undergraduate in Department of Physics, Peking University, China.
 url: "https://rosellaalucard.github.io/"
 baseurl: ""
@@ -22,7 +22,7 @@ sidebar-about-desciption: "Hakuna Matata"
 sidebar-avatar: https://res.cloudinary.com/rosellaalucard/image/upload/v1562178799/avatar_u6jrpf.jpg
 
 # Profile settings
-name: Qian-Ze Zhu (Rosella)
+name: Rosella Zhu
 profile_img: https://res.cloudinary.com/rosellaalucard/image/upload/v1562178799/avatar_u6jrpf.jpg
 profile: A second-year undergraduate in Department of Physics, Peking University, China. Love all kinds of beautiful things.
 social:
